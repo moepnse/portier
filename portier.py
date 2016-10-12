@@ -72,7 +72,7 @@ def main():
     [message]
     from =  portier@localhost
     to = root@localhost
-    subject = Login: %(user)s from %(rhost) on %(host)s
+    subject = Login: %(user)s from %(rhost)s on %(host)s
     message =
     """
     hostname = socket.gethostname()
